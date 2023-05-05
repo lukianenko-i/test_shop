@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
-*конструктор класса, занимающийся инициализацией полей покупки
-*/
+ * конструктор класса, занимающийся инициализацией полей покупки
+ */
 public class BuyPage {
     public WebDriver driver;
 

@@ -20,7 +20,7 @@ public class SecondCategoryPage {
     /**
      * определение локатора кнопки каталога
      */
-    @FindBy(xpath =  "/html/body/app-root/div/div/rz-super-portal/div/main/section/div[2]/rz-dynamic-widgets/rz-widget-list[1]/section/ul/li[1]/rz-list-tile/div/a[2]")
+    @FindBy(xpath = "/html/body/app-root/div/div/rz-super-portal/div/main/section/div[2]/rz-dynamic-widgets/rz-widget-list[1]/section/ul/li[1]/rz-list-tile/div/a[2]")
     public WebElement wareBtn;
 
     /**

@@ -6,6 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.util.concurrent.TimeUnit;
 
 public class BuyTest {
@@ -27,8 +28,6 @@ public class BuyTest {
         buyPage = new BuyPage(driver);
 
 
-
-
     }
 
     @Test
@@ -39,9 +38,9 @@ public class BuyTest {
 
     }
 
-//    @AfterClass
-//    public static void Stop() {
-//        driver.quit();
-//    }
-//
+    @AfterClass
+    public static void Stop() {
+        driver.quit();
+    }
+
 }
